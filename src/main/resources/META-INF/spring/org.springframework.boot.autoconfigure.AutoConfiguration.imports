@@ -1,0 +1,2 @@
+com.chandra.toolkit.config.AzureKafkaAutoConfiguration
+com.chandra.toolkit.config.AzureKafkaHealthAutoConfiguration

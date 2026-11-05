@@ -1,0 +1,43 @@
+{
+  "properties": [
+    {
+      "name": "azure.kafka.toolkit.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether toolkit auto-configuration is active.",
+      "defaultValue": true
+    },
+    {
+      "name": "azure.kafka.toolkit.max-retries",
+      "type": "java.lang.Integer",
+      "description": "Maximum number of consumption retries before DLQ routing.",
+      "defaultValue": 3
+    },
+    {
+      "name": "azure.kafka.toolkit.retry-backoff-ms",
+      "type": "java.lang.Long",
+      "description": "Delay between retry attempts, in milliseconds.",
+      "defaultValue": 1000
+    },
+    {
+      "name": "azure.kafka.toolkit.dlq-topic-suffix",
+      "type": "java.lang.String",
+      "description": "Suffix appended to the original topic when publishing to the DLQ.",
+      "defaultValue": ".DLQ"
+    },
+    {
+      "name": "azure.kafka.toolkit.health-timeout-ms",
+      "type": "java.lang.Long",
+      "description": "Timeout used by the Kafka cluster health probe, in milliseconds.",
+      "defaultValue": 3000
+    }
+  ],
+  "hints": [
+    {
+      "name": "azure.kafka.toolkit.enabled",
+      "values": [
+        { "value": "true", "description": "Enable toolkit auto-configuration." },
+        { "value": "false", "description": "Disable toolkit auto-configuration." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+com\chandra\toolkit\health\KafkaClusterHealthIndicatorTest.class
+com\chandra\toolkit\config\AzureKafkaAutoConfigurationTest$CustomErrorHandlerConfiguration.class
+com\chandra\toolkit\config\AzureKafkaPropertiesTest.class
+com\chandra\toolkit\config\AzureKafkaAutoConfigurationTest.class
+com\chandra\toolkit\retry\KafkaDlqErrorHandlerTest.class
+com\chandra\toolkit\config\AzureKafkaAutoConfigurationTest$KafkaInfrastructureConfiguration.class

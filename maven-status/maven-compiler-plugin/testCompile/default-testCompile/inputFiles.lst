@@ -1,0 +1,4 @@
+C:\Users\ADMIN\Desktop\Opensource\spring-boot-azure-kafka-toolkit\toolkit-core\src\test\java\com\chandra\toolkit\config\AzureKafkaAutoConfigurationTest.java
+C:\Users\ADMIN\Desktop\Opensource\spring-boot-azure-kafka-toolkit\toolkit-core\src\test\java\com\chandra\toolkit\config\AzureKafkaPropertiesTest.java
+C:\Users\ADMIN\Desktop\Opensource\spring-boot-azure-kafka-toolkit\toolkit-core\src\test\java\com\chandra\toolkit\health\KafkaClusterHealthIndicatorTest.java
+C:\Users\ADMIN\Desktop\Opensource\spring-boot-azure-kafka-toolkit\toolkit-core\src\test\java\com\chandra\toolkit\retry\KafkaDlqErrorHandlerTest.java
